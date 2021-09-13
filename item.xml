@@ -29,7 +29,7 @@
 	<dc:format xsi:type="dcterms:IMT">image/jp2</dc:format>
 	<dc:format>340x440cm</dc:format>
 	<dc:extent>145Kb</dc:extent>
-	<dc:identifier xsi:type="dcterms:URI"></dc:identifier>
-	<dc:source></dc:source>
-	<dc:coverage xsi:type="TGN" mp:ref=""></dc:coverage>
+	<dc:identifier xsi:type="dcterms:URI">https://giulioanelli.github.io/Bologna-rossa/</dc:identifier>
+	<dc:source>http://www.mambo-bologna.org/collezioneonline/collezionecontemporanea/opera-1106/</dc:source>
+	<dc:coverage xsi:type="TGN" mp:ref="http://vocab.getty.edu/page/ulan/500456823">Museo d'Arte Moderna di Bologna, Bologna</dc:coverage>
 </mp:metadata>
