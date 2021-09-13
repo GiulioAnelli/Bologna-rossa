@@ -1,13 +1,14 @@
 <!DOCTYPE html> 
 <html lang="it">
 
-<head> 
+<head>
 	<!--meta richiesti-->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<!--meta DC da compilare-->
+	<!--meta DC-->
 	<meta name="DC.Title" content="Bologna Rossa">
-	<meta name="DC.Creator" content="Giulio Anelli">
+	<meta name="DC.Creator.PersonalName" content="Giulio Anelli">
+	<meta name="DC.Creator.PersonalName.Address" content="giulio.anelli@studio.unibo.it">
 	<meta name="DC.Subject" content="collezione digitale">
 	<meta name="DC.Subject" content="opere politiche">
 	<meta name="DC.Subject" content="metadatazione">
@@ -18,14 +19,14 @@
 	<meta name="DC.Date" content="15/09/2021">
 	<meta name="DC.Type" content="Sito web">
 	<meta name="DC.Format" content="HTML/CSS/JS/XML">
-	<!--da compilare-->
-	<meta name="DC.Identifier" href="nome-sito-web-github">
-	<meta name="DC.Source" content="risorse usate">
+	<meta name="DC.Identifier" href="https://giulioanelli.github.io/Bologna-rossa/">
+	<meta name="DC.Source" content="https://storymap.knightlab.com/">
+	<meta name="DC.Source" content="https://coolors.co/">
 	<meta name="DC.Language" content="it">
-	<meta name="DC.Relation" content="">
-	<meta name="DC.Coverage" content="http://vocab.getty.edu/page/tgn/1000080">
+	<meta name="DC.Relation" content="http://www.comune.bologna.it/memoriabologna/notizie/107:5442/5454/">
+	<meta name="DC.Coverage" content="http://vocab.getty.edu/page/tgn/7003127">
 	<meta name="DC.Rights" content="http://creativecommons.org/licenses/by-nc-sa/4.0/">
-	<!--inserire link per foglio di stile-->
+	<!--Link per foglio di stile-->
 	<link rel="stylesheet" type="text/css" href="stile/stile.css">
 	<!--Bootstrap CSS-->
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
@@ -127,9 +128,10 @@
 		  </a>
 		</div>
 	</header>
+	
 	<!--Main con l'ancora-->
 	<main class="pt-2" id="scopri-di-piu">
-	<!--Il progetto-->
+		<!--IL PROGETTO-->
 		<section class="container-fluid pt-5 pb-3">
 			<div class="container">
 				<h2>Il progetto</h2>
@@ -146,19 +148,19 @@
 				</div>
 			</div>
 		</section> 
-		<!-- ESPLORA  --> 
-        <section class="container-fluid pb-5 pt-5">
+		<!--ESPLORA--> 
+        	<section class="container-fluid pb-5 pt-5">
 			<div class="container">
 				<div class="row">
 					<!-- Esplora per colore -->
-			        <div class="col-md-6">
-			            <h2>Esplora per colore</h2>
-			            <div id="carouselExampleControls" class="carousel slide pt-3" data-ride="carousel">
-			               	<div class="carousel-inner">
-				                <div class="carousel-item active">
-				                	<!-- Red SVG -->
-				                	<svg xmlns="bootstrap/icons/palette.svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 500 250" xml:space="preserve">
-									    <rect fill="#641220" x="0" y="0" width="50" height="220"/>
+			        	<div class="col-md-6">
+			            		<h2>Esplora per colore</h2>
+			            		<div id="carouselExampleControls" class="carousel slide pt-3" data-ride="carousel">
+			               			<div class="carousel-inner">
+				                		<div class="carousel-item active">
+				                			<!-- Red SVG -->
+				                			<svg xmlns="bootstrap/icons/palette.svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 500 250" xml:space="preserve">
+										<rect fill="#641220" x="0" y="0" width="50" height="220"/>
 										<rect fill="#6e1423" x="50" y="0" width="50" height="220"/>
 										<rect fill="#85182a" x="100" y="0" width="50" height="220"/>
 										<rect fill="#a11d33" x="150" y="0" width="50" height="220"/>
@@ -169,164 +171,164 @@
 										<rect fill="#da1e37" x="400" y="0" width="50" height="220"/>
 										<rect fill="#e01e37" x="450" y="0" width="50" height="220"/>
 									</svg>	
-				            	</div>
-				            	<div class="carousel-item">
-				            		<!-- Blue SVG -->
-				            		<svg xmlns="bootstrap/icons/palette-2.svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 500 250" xml:space="preserve">
-			    						<rect fill="#d9ed92" x="0" y="0" width="50" height="220"/>
-			    						<rect fill="#b5e48c" x="50" y="0" width="50" height="220"/>
-			    						<rect fill="#99d98c" x="100" y="0" width="50" height="220"/>
-			    						<rect fill="#76c893" x="150" y="0" width="50" height="220"/>
-			    						<rect fill="#52b69a" x="200" y="0" width="50" height="220"/>
-			    						<rect fill="#34a0a4" x="250" y="0" width="50" height="220"/>
-			    						<rect fill="#168aad" x="300" y="0" width="50" height="220"/>
-			    						<rect fill="#1a759f" x="350" y="0" width="50" height="220"/>
-			    						<rect fill="#1e6091" x="400" y="0" width="50" height="220"/>
-			    						<rect fill="#184e77" x="450" y="0" width="50" height="220"/>
-			    					</svg>
-				            	</div>
-				            	<div class="carousel-item">
-				            		<!-- Brown SVG -->
-				            		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 500 250" xml:space="preserve">
-		        						<rect fill="#582f0e" x="0" y="0" width="50" height="220"/>
-		        						<rect fill="#7f4f24" x="50" y="0" width="50" height="220"/>
-		        						<rect fill="#936639" x="100" y="0" width="50" height="220"/>
-		        						<rect fill="#a68a64" x="150" y="0" width="50" height="220"/>
-		        						<rect fill="#b6ad90" x="200" y="0" width="50" height="220"/>
-		        						<rect fill="#c2c5aa" x="250" y="0" width="50" height="220"/>
-		        						<rect fill="#a4ac86" x="300" y="0" width="50" height="220"/>
-		        						<rect fill="#656d4a" x="350" y="0" width="50" height="220"/>
-		        						<rect fill="#414833" x="400" y="0" width="50" height="220"/>
-		        						<rect fill="#333d29" x="450" y="0" width="50" height="220"/>
-		      						</svg>
-		      					</div>
-				            </div>
-				            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-		    					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-		    					<span class="sr-only">Previous</span>
+				            			</div>
+				            			<div class="carousel-item">
+				            				<!-- Blue SVG -->
+				            				<svg xmlns="bootstrap/icons/palette-2.svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 500 250" xml:space="preserve">
+			    							<rect fill="#d9ed92" x="0" y="0" width="50" height="220"/>
+			    							<rect fill="#b5e48c" x="50" y="0" width="50" height="220"/>
+			    							<rect fill="#99d98c" x="100" y="0" width="50" height="220"/>
+			    							<rect fill="#76c893" x="150" y="0" width="50" height="220"/>
+			    							<rect fill="#52b69a" x="200" y="0" width="50" height="220"/>
+			    							<rect fill="#34a0a4" x="250" y="0" width="50" height="220"/>
+			    							<rect fill="#168aad" x="300" y="0" width="50" height="220"/>
+			    							<rect fill="#1a759f" x="350" y="0" width="50" height="220"/>
+			    							<rect fill="#1e6091" x="400" y="0" width="50" height="220"/>
+			    							<rect fill="#184e77" x="450" y="0" width="50" height="220"/>
+			    						</svg>
+				            			</div>
+				            			<div class="carousel-item">
+				            				<!-- Brown SVG -->
+				            				<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 500 250" xml:space="preserve">
+										<rect fill="#582f0e" x="0" y="0" width="50" height="220"/>
+										<rect fill="#7f4f24" x="50" y="0" width="50" height="220"/>
+										<rect fill="#936639" x="100" y="0" width="50" height="220"/>
+										<rect fill="#a68a64" x="150" y="0" width="50" height="220"/>
+										<rect fill="#b6ad90" x="200" y="0" width="50" height="220"/>
+										<rect fill="#c2c5aa" x="250" y="0" width="50" height="220"/>
+										<rect fill="#a4ac86" x="300" y="0" width="50" height="220"/>
+										<rect fill="#656d4a" x="350" y="0" width="50" height="220"/>
+										<rect fill="#414833" x="400" y="0" width="50" height="220"/>
+										<rect fill="#333d29" x="450" y="0" width="50" height="220"/>
+		      							</svg>
+		      						</div>
+				            		</div>
+				            		<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
 		  					</a>
 		  					<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-		    					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-		    					<span class="sr-only">Next</span>
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
 		  					</a>
 						</div>
-			            <button type="button" class="btn btn-outline-danger">
+			            		<button type="button" class="btn btn-outline-danger">
 							Esplora altri colori
 							<svg xmlns="bootstrap/icons/arrow-right-circle.svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
 								<path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
 							</svg>
 						</button> 
-			        </div>
-			        <!-- Esplora per categoria -->
-			        <div class="col-md-6">
-			        	<h2>Esplora per categoria</h2>
-			        	<div class="btn-group-vertical pt-3">
-			        		<div class="btn-group dropright">
-			        			<button type="button" class="btn btn-outline-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			        				Politici
-			        			</button>
-			        			<div class="dropdown-menu">
-			        				<h6 class="dropdown-header">Opere</h6>
-			        				<!-- nomi opere arte -->
-			        				<a class="dropdown-item" href="#">Funerali di Togliatti</a>
-			        				<a class="dropdown-item" href="#">Il Comizio (Omaggio a Giuseppe Di Vittorio)</a>
-			        				<a class="dropdown-item" href="#">Senza titolo</a>
-			        			</div>
-			        		</div>
-			        		<div class="btn-group dropright">
-			        			<button type="button" class="btn btn-outline-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			        				Società
-			        			</button>
-			        			<div class="dropdown-menu">
-			        				<h6 class="dropdown-header">Opere</h6>
-			        				<!-- nomi opere arte -->
-			        				<a class="dropdown-item" href="#">Coca-Cola (particolare)</a>
-			        				<a class="dropdown-item" href="#">Sono stata io. Il diario (1900-1999)</a>
-			        			</div>
-			        		</div>
-			        		<div class="btn-group dropright">
-			        			<button type="button" class="btn btn-outline-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			        				Bandiere
-			        			</button>
-			        			<div class="dropdown-menu">
-			        				<h6 class="dropdown-header">Opere</h6>
-			        				<!-- nomi opere arte -->
-			        				<a class="dropdown-item" href="#">Funerali di Togliatti</a>
-			        				<a class="dropdown-item" href="#">Corteo</a>
-			        			</div>
-			        		</div>
-			        		<div class="btn-group dropright">
-			        			<button type="button" class="btn btn-outline-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			        				Manifestazione
-			        			</button>
-			        			<div class="dropdown-menu">
-			        				<h6 class="dropdown-header">Opere</h6>
-			        				<!-- nomi opere arte -->
-			        				<a class="dropdown-item" href="#">Comizio (Omaggio a Giuseppe Di Vittorio)</a>
-			        				<a class="dropdown-item" href="#">Corteo</a>
-			        				<a class="dropdown-item" href="#">Totem</a>
-			        			</div>
-			        		</div>
-			        		<div class="btn-group dropright">
-			        			<button type="button" class="btn btn-outline-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			        				Commemorazione
-			        			</button>
-			        			<div class="dropdown-menu dropdown-menu-right">
-			        				<h6 class="dropdown-header">Opere</h6>	
-			        				<!-- nomi opere arte -->
-			        				<a class="dropdown-item" href="#">Funerali di Togliatti</a>
-			        				<a class="dropdown-item" href="#">Per non dimentiare</a>
-			        				<a class="dropdown-item" href="#">2 Agosto 1980</a>
-			        			</div>
-			        		</div>
 			        	</div>
-			        </div>
-			    </div>
+			        	<!-- Esplora per categoria -->
+					<div class="col-md-6">
+						<h2>Esplora per categoria</h2>
+						<div class="btn-group-vertical pt-3">
+							<div class="btn-group dropright">
+								<button type="button" class="btn btn-outline-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Politici
+								</button>
+								<div class="dropdown-menu">
+									<h6 class="dropdown-header">Opere</h6>
+									<!-- nomi opere arte -->
+									<a class="dropdown-item" href="#">Funerali di Togliatti</a>
+									<a class="dropdown-item" href="#">Il Comizio (Omaggio a Giuseppe Di Vittorio)</a>
+									<a class="dropdown-item" href="#">Senza titolo</a>
+								</div>
+							</div>
+							<div class="btn-group dropright">
+								<button type="button" class="btn btn-outline-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Società
+								</button>
+								<div class="dropdown-menu">
+									<h6 class="dropdown-header">Opere</h6>
+									<!-- nomi opere arte -->
+									<a class="dropdown-item" href="#">Coca-Cola (particolare)</a>
+									<a class="dropdown-item" href="#">Sono stata io. Il diario (1900-1999)</a>
+								</div>
+							</div>
+							<div class="btn-group dropright">
+								<button type="button" class="btn btn-outline-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Bandiere
+								</button>
+								<div class="dropdown-menu">
+									<h6 class="dropdown-header">Opere</h6>
+									<!-- nomi opere arte -->
+									<a class="dropdown-item" href="#">Funerali di Togliatti</a>
+									<a class="dropdown-item" href="#">Corteo</a>
+								</div>
+							</div>
+							<div class="btn-group dropright">
+								<button type="button" class="btn btn-outline-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Manifestazione
+								</button>
+								<div class="dropdown-menu">
+									<h6 class="dropdown-header">Opere</h6>
+									<!-- nomi opere arte -->
+									<a class="dropdown-item" href="#">Comizio (Omaggio a Giuseppe Di Vittorio)</a>
+									<a class="dropdown-item" href="#">Corteo</a>
+									<a class="dropdown-item" href="#">Totem</a>
+								</div>
+							</div>
+							<div class="btn-group dropright">
+								<button type="button" class="btn btn-outline-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Commemorazione
+								</button>
+								<div class="dropdown-menu dropdown-menu-right">
+									<h6 class="dropdown-header">Opere</h6>	
+									<!-- nomi opere arte -->
+									<a class="dropdown-item" href="#">Funerali di Togliatti</a>
+									<a class="dropdown-item" href="#">Per non dimentiare</a>
+									<a class="dropdown-item" href="#">2 Agosto 1980</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
 		<section class="container-fluid background-angeli pb-5 pt-5">
-            <div class="container">
-                <div class="col-md-6 background-mappa">
-                    <h2>Qui vicino</h2>
-                    <p>Esplora la collezione seguendo la mappa della città</p>
-                	<!-- inserire story map-->
-                	<iframe src="https://uploads.knightlab.com/storymapjs/1b935ceec04a406ee8b51612ad4b6e5e/bologna-rossa/draft.html" frameborder="0" width="100%" height="500"></iframe>
-                    <!-- didascalia immagine -->
-                    <p class="img-caption text-muted mt-4">Immagine: <em>Franco Angeli, Corteo, 1968, Museo d'arte moderna e contemporanea, Bologna</em></p>
-                </div>
-            </div>
-        </section>	
-    </main>
-    <!-- FOOTER -->
-    <footer>
-        <!-- informazioni secondarie -->
-        <div class="container-fluid background-foot pb-5 pt-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <h3 class="text-justify">Bologna Rossa</h3>
-                        <p class="text-justify">Bologna Rossa è un progetto nato nell'ambito del corso di Digital Humanities e Patrimonio Culturale del corso di Laurea Magistrale in Arti Visive dell'Università di Bologna.</p>
-                        <a href="#scopri-di-piu"><button type="button" class="btn btn-outline-light">Scopri di più</button></a>
-                    </div>
-                    <div class="col-md-4">
-                        <h3>Contatti</h3>
-                        <a href="https://www.unibo.it/it"><p class="link">Alma Mater Studiorum - Università di Bologna</p></a>
-                    	<a href="https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2020/444725"><p class="link">Digital Humanities e Patrimonio Culturale</p></a>
-                    	<a href="https://dar.unibo.it/it/index.html"><p class="link">Dipartimento delle Arti - Unibo</p></a>
-                	</div>
-                    <div class="col-md-4">
-                       	<h3>Licenza</h3>
-                        <p class="link"><a rel="license" class="mb-3" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licenza Creative Commons" style="border-width:0" class="mt-1" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a></p>
-                    	<p>Quest'opera è distribuita con <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" class="link">Licenza Creative Commons Attribuzione - Non commerciale - Condividi allo stesso modo 4.0 Internazionale</a>.</p>
-                	</div>
-                </div>
-            </div>
-        </div>
-        <!-- copyright -->
-        <div class="container-fluid background-copy">
-            <p class="mb-0 pb-1 pt-1 text-center">© Copyright (c) 2021 by Giulio Anelli - Arti Visive - Università di Bologna</p>
-        </div>
-    </footer>
+			<div class="container">
+				<div class="col-md-6 background-mappa">
+				    <h2>Qui vicino</h2>
+				    <p>Esplora la collezione seguendo la mappa della città</p>
+					<!-- inserire story map-->
+					<iframe src="https://uploads.knightlab.com/storymapjs/1b935ceec04a406ee8b51612ad4b6e5e/bologna-rossa/draft.html" frameborder="0" width="100%" height="500"></iframe>
+				    <!-- didascalia immagine -->
+				    <p class="img-caption text-muted mt-4">Immagine: <em>Franco Angeli, Corteo, 1968, Museo d'arte moderna e contemporanea, Bologna</em></p>
+				</div>
+			</div>
+		</section>	
+	</main>
+	<!-- FOOTER -->
+	<footer>
+		<!-- informazioni secondarie -->
+		<div class="container-fluid background-foot pb-5 pt-5">
+		    <div class="container">
+			<div class="row">
+			    <div class="col-md-4">
+				<h3 class="text-justify">Bologna Rossa</h3>
+				<p class="text-justify">Bologna Rossa è un progetto nato nell'ambito del corso di Digital Humanities e Patrimonio Culturale del corso di Laurea Magistrale in Arti Visive dell'Università di Bologna.</p>
+				<a href="#scopri-di-piu"><button type="button" class="btn btn-outline-light">Scopri di più</button></a>
+			    </div>
+			    <div class="col-md-4">
+				<h3>Contatti</h3>
+				<a href="https://www.unibo.it/it"><p class="link">Alma Mater Studiorum - Università di Bologna</p></a>
+				<a href="https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2020/444725"><p class="link">Digital Humanities e Patrimonio Culturale</p></a>
+				<a href="https://dar.unibo.it/it/index.html"><p class="link">Dipartimento delle Arti - Unibo</p></a>
+				</div>
+			    <div class="col-md-4">
+				<h3>Licenza</h3>
+				<p class="link"><a rel="license" class="mb-3" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licenza Creative Commons" style="border-width:0" class="mt-1" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a></p>
+				<p>Quest'opera è distribuita con <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" class="link">Licenza Creative Commons Attribuzione - Non commerciale - Condividi allo stesso modo 4.0 Internazionale</a>.</p>
+				</div>
+			</div>
+		    </div>
+		</div>
+		<!-- copyright -->
+		<div class="container-fluid background-copy">
+		    <p class="mb-0 pb-1 pt-1 text-center">© Copyright (c) 2021 by Giulio Anelli - Arti Visive - Università di Bologna</p>
+		</div>
+	</footer>
 
 	<!--Collegamento a JQuaery-->
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
