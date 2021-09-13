@@ -1,0 +1,85 @@
+/*google font */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+h2 { color: #ffffff	
+}
+
+main { background-color:  #212529;
+	color: #fff;
+}
+
+
+/*sezione tutta per il background*/
+.background-angeli { background-attachment: fixed; background-image: url(../immagini/img-home/angeli-home.jpg); background-size: cover; background-repeat: no-repeat;
+}
+
+.background-mappa {background-color: #212529; border: 1px solid rgba(0,0,0,.125); border-radius: .25rem; padding: 50px 60px 50px 60px;}
+
+.background-foot {background-color: #212529;
+color: #fff;
+}
+
+.background-copy {
+	background-color: #ffe8cc;
+}
+
+/*navbar*/
+.navbar-brand { font-family: 'Oswald', sans-serif; color: #b30000 !important;
+}
+
+/*carousel*/
+.carousel-caption {background-color: rgba(26, 26, 26, .7);}
+.carousel-caption > h1 {font-family: 'Oswald', sans-serif; font-size: 2.5em;}
+.carousel-caption > h2 {font-size: 1.5em;}
+/*controllare navigazione*/
+.carousel-control-prev, .carousel-control-next {z-index: 10 !important;}
+
+.link {
+	color: #fff;
+	text-decoration: none;
+}
+
+.link:hover {
+	color: #fff;
+	text-decoration: underline;
+	text-decoration-color: #fff;
+}
+
+.breadcrumbs > ul > li {color: #fff; display: inline; font-size: .9em;}
+/* ::after indica che dopo ogni elemento con le classi/attributi indicati bisogna inserire il contenuto riportato dalla proprietà content */
+.breadcrumbs li:not(:last-child)::after {content: " >";}
+
+.checkbox-container > h3 {font-size: 1em; }
+
+.text-center {color: #b30000}
+
+.nav-tabs a:not(.active) {color: #fff;}
+
+/* card della lista */
+.card-item .btn {width: 100%;}
+.card-item > .card-body > .card-metadata {height: 220px;}
+.card-metadata > h4 {font-size: 1.2em;}
+.card-item img {height: 400px;}
+.card-item a {color: #61879E;}
+.card-item a:hover {color: #61879E; text-decoration: underline; text-decoration-color: #61879E;}
+.card-item h4, p {color: #fff;}
+.card-body {background-color: #212529}
+
+/* button della lista */
+.btn-meta {background-color: #61879E!important; border: 1px solid #61879E; color: #FFFFFF !important;}
+.btn-meta:hover {background-color: #3A515F!important; border: 1px solid #3A515F;}
+
+/* pagination */
+.page-link {color: #61879E!important; background-color: #212529!important;}
+.page-item {color: #61879E; border-color: #61879E!important; background-color: #212529;}
+.page-link {border-color: white!important;}
+
+/*singoli item*/
+.share {width: 100%;}
+
+/* card metadati */
+.card-header { background-color: #212529 !important; }
+.card-header b > a, .card-text > b > a, li > b > a {color: #61879E;}
+.card-text > span {display: inline-block; width: 200px;}
+.card-body .form-check {display: inline; margin-left: 10px;}
+aside .card:hover { box-shadow: 0px 5px 40px -10px rgba(122, 144, 173, .9); }

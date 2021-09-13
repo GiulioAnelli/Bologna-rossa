@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--root-->
+<!--Partiamo con la root e i necessari namespaces compreso lo schema di nostra invenzione-->
+<mp:metadata xmlns:mp="http://example.org/MyProject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xsi:schemaLocation="http://example.org/MyProject/ http://example.org/MyProject/schema.xsd">
+	<dc:title>Funerale di Togliatti</dc:title>
+	<dc:creator xsi:type="dcterms:VIAF" mp:ref="http://viaf.org/viaf/106962834">Guttuso, Renato</dc:creator>
+	<dc:subject> arti visive, pittura, dipinto, realismo, Bologna, partito comunista italiano, biografia, ritratto, funerale, Togliatti, Pasolini, Renato Guttuso, bandiere, commemorazione </dc:subject>
+	<!--classificazione dipinto-->
+	<dc:subject xsi:type="dcterms:UDC">75</dc:subject>
+	<!--soggetto realismo-->
+	<dc:subject xsi:type="dcterms:UDC">7036</dc:subject>
+	<!--soggetto partito comunista italiano-->
+	<dc:subject xsi:type="dcterms:UDC">329(450)PCI</dc:subject>
+	<!--soggetto biografia-->
+	<dc:subject xsi:type="dcterms:LCC">CT21-22</dc:subject>
+	<!--soggetto ritratto-->
+	<dc:subject xsi:type="dcterms:LCC">CT-206</dc:subject>
+	<!--soggetto Togliatti-->
+	<dc:subject xsi:type="dcterms:LCC">http://id.loc.gov/authorities/classification/Z8883.3</dc:subject>
+	<!--soggetto Pasolini-->
+	<dc:subject xsi:type="dcterms:LCC">http://id.loc.gov/authorities/classification/Z8662.17</dc:subject>
+	<dc:description>"Funerale di Togliatti è un dipinto realizzato da Renato Guttuso nel 1972 che raffigura il funerale del politico Palmiro Togliatti."</dc:description>
+	<dc:publisher>Bologna Rossa, progetto di Digital Humanities</dc:publisher>
+	<dc:contributor>Giulio Anelli</dc:contributor>
+	<dc:date type="creation">1972</dc:date>
+	<dc:date type="subject">1911-1987</dc:date>
+	<dc:type>Dipinto</dc:type>
+	<dc:format xsi:type="dcterms:IMT">image/jp2</dc:format>
+	<dc:format>340x440cm</dc:format>
+	<dc:extent>145Kb</dc:extent>
+	<dc:identifier xsi:type="dcterms:URI"></dc:identifier>
+	<dc:source></dc:source>
+	<dc:coverage xsi:type="TGN" mp:ref=""></dc:coverage>
+</mp:metadata>
